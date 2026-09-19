@@ -1,0 +1,32 @@
+# Gradle
+.gradle/
+.kotlin/
+**/build/
+
+# Local Gradle/Android configuration
+local.properties
+
+# Android Studio / IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# Android build/debug output
+captures/
+.externalNativeBuild/
+.cxx/
+
+# JVM diagnostics
+*.hprof
+
+# Signing files - never commit these
+*.jks
+*.keystore
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
